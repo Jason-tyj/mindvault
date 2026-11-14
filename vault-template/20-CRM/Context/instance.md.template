@@ -1,0 +1,30 @@
+# 实例与执行环境配置 (Instance & Runtime Config)
+
+> 复制本文件为 `instance.md` 并填写您的本地个性化配置（该文件受隐私保护，永不提交到公共 Git 仓库）。
+
+## 1. Owner 身份与背景索引
+- **详细画像与职场角色**：见 [[user|20-CRM/Context/user.md]]
+- **个人发展与决策准则**：见 [[个人发展与决策准则|20-CRM/Context/个人发展与决策准则.md]]
+- **核心主线**：填写本年度核心目标与管理关注
+
+## 2. 本地执行机与环境配置
+- **默认执行面**：本地工作站 (如 macOS / Linux / Cloud VM)
+- **设备标识 (machineId)**：填写您的设备唯一标识或留空
+- **本地工具 CLI 路径**：
+  - Codex CLI: `~/.local/bin/codex`
+  - Antigravity / Claude CLI: `~/.local/bin/agy`
+- **网络与代理配置**：
+  - 代理环境变量（若需要）：`export http_proxy=... https_proxy=...`
+- **备份与暂存路径**：
+  - 本地快照备份根目录：`~/Backups/MindVault/`
+
+## 3. 活跃编队实例绑定
+| Bot 角色 | 平台 / 模型 | 专属职责与绑定资源 |
+| --- | --- | --- |
+| **参谋长** | 如 Claude 3.5 / GPT-4o | 入口/工作台；统筹跨域对齐与审批流 |
+| **情报官** | 如 Perplexity / Gemini | 行业日更；事实核查与一手溯源台 |
+| **质检师** | 如 Claude / GPT-4o | 交付终检；MindVault 周巡检 (A1–A9 只检不修) |
+| **工具型/外包** | 本地 CLI Agent | 本地终端复杂代码或文档工程处理 |
+
+## 4. 本地自动化例程 (Local Daemons & Cron)
+- 记录本地定时任务或守护进程。

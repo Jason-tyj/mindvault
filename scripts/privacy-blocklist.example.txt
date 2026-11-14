@@ -1,0 +1,9 @@
+# Example privacy blocklist for MindVault.
+# Copy this file to 20-CRM/Context/privacy-blocklist.txt in your private vault
+# and replace the sample terms with your real names, org names, machine paths
+# and identifiers. The real blocklist is never exported.
+#
+# One exact-match keyword per line. Lines starting with # are comments.
+Jane Doe
+Acme Health Example
+/Users/yourname

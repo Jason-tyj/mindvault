@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Private Instance files
+20-CRM/Context/instance.md
+20-CRM/Context/user.md
+
+# Editor & temporary files
+*.tmp
+*.swp
+*~
+
+# Private privacy blocklist (never commit the real list)
+privacy-blocklist.txt
+!privacy-blocklist.example.txt
