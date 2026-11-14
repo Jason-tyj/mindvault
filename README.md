@@ -12,6 +12,8 @@ Unlike traditional RAG systems that query static documents on demand, or heavy a
 
 ---
 
+![MindVault Architecture](docs/assets/mindvault-architecture.png)
+
 ## Why MindVault?
 
 | Dimension | Static Note Vaults | Heavy DB Agent Brains | MindVault |

@@ -12,6 +12,8 @@ MindVault 是一个开源、智能体原生（Agent-Native）的个人知识操�
 
 ---
 
+![MindVault 系统架构](docs/assets/mindvault-architecture.png)
+
 ## 为什么选择 MindVault？
 
 | 维度 | 传统静态笔记库 | 重型数据库 Agent 记忆 | MindVault |
